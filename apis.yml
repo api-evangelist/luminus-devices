@@ -1,8 +1,27 @@
 aid: luminus-devices
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/luminus-devices.png
 name: Luminus Devices
-description: Luminus Devices is a company surfaced as a portfolio company of battery-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Luminus Devices is an optoelectronics manufacturer ("Improving Life with
+  Photons") producing solid-state lighting and photonics hardware: COB arrays,
+  specialty and color SMD LEDs, UV/IR/horticulture LEDs, green/blue/red
+  multi-mode lasers, and power semiconductors (SiC MOSFETs and Schottky barrier
+  diodes) for retail, industrial, medical, life-sciences, display, and
+  automotive applications. Surfaced as a portfolio company of Battery Ventures
+  and added to the API Evangelist network. Enrichment confirmed this is a
+  hardware/components company that publishes no public developer API, REST API,
+  or developer portal — only a product resources/tools portal.
 url: https://raw.githubusercontent.com/api-evangelist/luminus-devices/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +31,27 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Optoelectronics
+- LED
+- Photonics
+- Lighting
+- Semiconductors
+- Lasers
+- Hardware
 apis: []
+common:
+- type: Website
+  url: https://www.luminus.com/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
